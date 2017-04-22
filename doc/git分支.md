@@ -1,0 +1,17 @@
+#git分支#
+1.创建分支  
+git checkout -b dev  
+
+2.切换分支  
+git checkout dev
+
+3.修改dev分支  
+
+4.切换到master分支  
+git checkout master
+
+5.将dev分支修改的内容合并到master中  
+git merge dev
+
+6.删掉dev分支  
+git branch -d dev
