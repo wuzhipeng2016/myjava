@@ -15,3 +15,10 @@ git merge dev
 
 6.删掉dev分支  
 git branch -d dev
+
+7.比较分支
+git diff dev master
+
+8.提交master分支
+git push origin master
+
