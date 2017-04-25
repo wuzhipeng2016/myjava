@@ -1,4 +1,4 @@
-#git分支#
+﻿#git分支#
 1.创建分支  
 git checkout -b dev  
 
@@ -22,3 +22,9 @@ git diff dev master
 8.提交master分支
 git push origin master
 
+
+
+git reset HEAD 如果后面什么都不跟的话 就是上一次add 里面的全部撤销了
+git log 查看节点   
+commit xxxxxxxxxxxxxxxxxxxxxxxxxx 
+git reset commit_id
