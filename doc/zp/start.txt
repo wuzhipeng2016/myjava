@@ -1,0 +1,9 @@
+#需要文件夹zp,存放导入的照片
+#修改zp.properties文件
+#选择下面的任一命令
+#照片根据学号先删除，再插入
+#javac -cp .;ojdbc14.jar Zp.java
+
+java -classpath .;ojdbc14.jar Zp
+unix下
+java -classpath .:ojdbc14.jar Zp
