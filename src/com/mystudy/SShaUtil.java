@@ -55,17 +55,9 @@ public class SShaUtil {
         byte[][] lr = { l, r };  
         return lr;  
     }  
-    
+    private static boolean b;
     public static void main(String[] args) throws Exception{
-    	String salt = UUID.randomUUID().toString();
-    	System.out.println(salt);
     	
-    	String password = "this is test password";
-    	SShaUtil ssha = new SShaUtil();  
-        String ssha_password = ssha.getDigest(salt,password);
-        System.out.println(ssha_password);
-        
-        boolean check = ssha.verifyDigest(ssha_password,password);
-        System.out.println(check);
+        System.out.println(b);
     }
 }  
